@@ -33,13 +33,12 @@ Use a [[Hash map]] to store the elements of the array, so that for later element
 
 	The advantage is based on the principle that finding an element in the hash map is O(1) operation (amortized complexity).
 
-In C++, hash map is implemented by `unordered_map < , >`.
-
 ##### Time complexity - 
 
 $\mathcal{O}(N)$
 
 The `insert` operation in hash map is $\mathcal{O}(1)$. The total time $T$ is given by,
+
 $$ \begin{align} T & = \sum_{i=1}^{N} t \\ T  & = tN = \mathcal{O}(N) \end{align} $$
 
 ##### Space complexity - 
